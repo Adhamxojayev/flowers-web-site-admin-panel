@@ -9,6 +9,6 @@ insert into products (product_name, price, description, count, category_id) valu
 ('kaktus', 10000, 'kaktus tikoni bor ...', 30, 2),  ('arhideya', 13000, 'arhedeya guli...', 50, 3);
 
 
-insert into images (image, product_id) values ('http://picsum.photos/400', 4), ('http://picsum.photos/400', 4);,
+insert into images (image, product_id) values ('http://picsum.photos/400', 4), ('http://picsum.photos/400', 4),
 ('http://picsum.photos/400', 2), ('http://picsum.photos/400', 2), ('http://picsum.photos/400', 3), ('http://picsum.photos/400', 3);
 
