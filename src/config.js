@@ -11,7 +11,6 @@ const pgConfig = {
     password: process.env.PASSWORD
 }
 
-console.log(pgConfig)
 module.exports = {
     pgConfig, SECRET
 }

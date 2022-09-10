@@ -7,7 +7,7 @@ module.exports =  (req, res, next) =>  {
             if(!token) throw new Error ('token required')
             jwt.verify(token)
         }
-        next()
+        return next()
     } catch (error) {
         res.sendStatus(401)
     }
